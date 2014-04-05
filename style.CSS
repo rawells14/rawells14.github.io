@@ -1,0 +1,36 @@
+    
+    body{background: #7BA7CC;}
+    
+    div#menuback{
+        background: #3F8FD2;
+        padding: 15px 17px;
+        padding-left: 7px;
+        border-radius: 7px;
+        
+    }
+
+    div#menubuttons>a{
+        font-size: 19px;
+    	font-family: Arial;
+    	background: #0C5AA6;
+    	padding: 7px 15px;
+    	color: #000000;
+    	text-decoration: none;
+    	border-radius: 7px;
+    	transition: color 0.4s linear 0s, border-radius .2s linear 0s, background 0.2s linear 0s;
+    }
+
+    div#menubuttons>a:hover{
+    	color: #FFFFFF;	
+    	background: #04396C;
+    	border-radius: 30px;
+
+    }
+
+    div#title{
+    	color: #000000;	
+    	text-align: center;
+    	font-size: 60px;
+    	padding-top: 45px;
+    	font-family: sans-serif;
+    }
