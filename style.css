@@ -6,7 +6,8 @@
         padding: 15px 17px;
         padding-left: 7px;
         border-radius: 7px;
-        
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     div#menubuttons>a{
