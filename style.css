@@ -1,5 +1,5 @@
     
-    body{background: #7BA7CC;}
+    body{background: #E6F0F5;}
     
     div#menuback{
         background: #3F8FD2;
@@ -40,7 +40,7 @@
     	font-family: "Ubuntu";
     }
 
-    div#contactinfo{
+    div#infoback{
         padding-left: 10px;
         padding-right: 10px;
         text-align: center;
@@ -50,7 +50,7 @@
         border-radius: 7px;
         font-family: "Ubuntu";
         font-size: 16px;
-        background-color:#B2E6FF;
+        background-color:#3385AD;
         margin-left: 475px;
         margin-right: 475px;
     }
