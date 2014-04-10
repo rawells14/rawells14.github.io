@@ -1,6 +1,10 @@
     
     body{background: #E6F0F5;}
-    
+
+    @font-face{ 
+        font-family: Ubuntu; src: url("Ubuntu-L.ttf");
+    }
+
     div#menuback{
         background: #3F8FD2;
         padding: 15px 17px;
@@ -9,11 +13,6 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-
-    @font-face{ 
-        font-family: Ubuntu; src: url("Ubuntu-L.ttf");
-        }
-
     div#menubuttons>a{
         font-size: 19px;
     	font-family: "Ubuntu";
@@ -24,14 +23,12 @@
     	border-radius: 7px;
     	transition: color 0.4s linear 0s, border-radius .2s linear 0s, background 0.2s linear 0s;
     }
-
     div#menubuttons>a:hover{
     	color: #FFFFFF;	
     	background: #04396C;
     	border-radius: 30px;
         
     }
-
     div#title{
     	color: #000000;	
     	text-align: center;
@@ -39,7 +36,6 @@
     	padding-top: 45px;
     	font-family: "Ubuntu";
     }
-
     div#infoback{
         padding-left: 10px;
         padding-right: 10px;
@@ -51,6 +47,23 @@
         font-family: "Ubuntu";
         font-size: 16px;
         background-color:#3385AD;
-        margin-left: 475px;
-        margin-right: 475px;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    div#link>a:link{
+        font-family: "Ubuntu";
+        font-size: 16px;
+        text-decoration: none;
+        color: #000000;
+        
+    }
+    div#link>a:visited{
+        font-family: "Ubuntu";
+        font-size: 16px;
+        text-decoration: none;
+        color: #000000;
+    }
+    div#link:hover{
+        text-decoration: underline;
+        color: #3333FF;
     }
