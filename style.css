@@ -7,8 +7,8 @@ body{background: #E6F0F5;}
 
 #menuback{
     background: #3F8FD2;
-    padding: 15px 17px;
-    padding-left: 7px;
+    padding: 15vp 17vp;
+    padding-left: 7vp;
     border-radius: 7px;
     margin-left: 10px;
     margin-right: 10px;
@@ -67,4 +67,4 @@ body{background: #E6F0F5;}
     text-decoration: underline;
     color: #3333FF;
 
-}
+    }
