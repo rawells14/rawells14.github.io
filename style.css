@@ -45,10 +45,6 @@ body{background: #E6F0F5;}
     padding-top: 45px;
     font-family: "Ubuntu";
 }
-.blur {
-   color: transparent;
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
 #infoback{
     padding-left: 10px;
     padding-right: 10px;
