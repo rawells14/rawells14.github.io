@@ -4,7 +4,15 @@ body{background: #E6F0F5;}
 @font-face{ 
     font-family: Ubuntu; src: url("Ubuntu-L.ttf");
 }
-
+#notselectedmenu{
+    background: #3F8FD2;
+    padding: 15vp 17vp;
+    padding-left: 7vp;
+    margin-top: 1%;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 #menuback{
     background: #3F8FD2;
     padding: 15vp 17vp;
