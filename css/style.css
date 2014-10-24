@@ -1,9 +1,15 @@
-    
 body{background: #E6F0F5;}
 
 @font-face{ 
-    font-family: Ubuntu; src: url("Ubuntu-L.ttf");
+    font-family: Ubuntu; src: url("../Ubuntu-L.ttf");
 }
+.ubuntu{
+    font-family: Ubuntu; src: url("../Ubuntu-L.ttf");
+}
+.blue{
+    background-color:#3385AD;
+}
+
 #notselectedmenu{
     background: #3F8FD2;
     padding: 15vp 17vp;
@@ -55,7 +61,6 @@ body{background: #E6F0F5;}
     border-radius: 7px;
     font-family: "Ubuntu";
     font-size: 16px;
-    background-color:#3385AD;
     margin-left: 35%;
     margin-right: 35%;
 }
@@ -76,4 +81,4 @@ body{background: #E6F0F5;}
     text-decoration: underline;
     color: #3333FF;
 
-    }
+}
