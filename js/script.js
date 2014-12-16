@@ -12,22 +12,20 @@ $(document).ready(function () {
     		hideWrappers();
     		$(TitleWrapper).show();
     	};
-    	if ($("#Resume").hasClass("active")){
+    	if ($("#About").hasClass("active")){
     		hideWrappers();
-    		$(ResumeWrapper).show();
+    		$(AboutWrapper).show();
     	};
     	if ($("#Contact").hasClass("active")){
     		hideWrappers();
     		$(ContactWrapper).show();
     	};
     });
-
-
-    });
+});
 
 function hideWrappers(){
 	$(TitleWrapper).hide();
-	$(ResumeWrapper).hide();
+	$(AboutWrapper).hide();
 	$(ContactWrapper).hide();
 }
 
