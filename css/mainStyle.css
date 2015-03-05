@@ -17,3 +17,10 @@
 	margin-right: auto;
 	width: 50%;
 }
+
+#hobbies-wrapper{
+    padding-top: 3%;
+    background-color: #7BBB93;
+    padding-bottom: 5%;
+    text-align: center;
+}
