@@ -3,8 +3,13 @@
 	background-color: #7BBB93;
 	padding-bottom: 5%;
 	text-align: center; 
+}#about-wrapper{
+	padding-top: 3%;
+	background-color: #7BBB93;
+	padding-bottom: 5%;
+	text-align: center;
 }
-.proj-desc{
+.desc{
 	text-align: center;
 	font-size: 20px; 
 	color: #D7EDE0;
