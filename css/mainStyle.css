@@ -10,17 +10,38 @@
 	text-align: center;
 }
 .desc{
-	text-align: center;
-	font-size: 20px; 
+	
+	font-size: 18px; 
 	color: #D7EDE0;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	
+}
+.link{
+	text-decoration: underline;
+	color: #D7EDE0;
+}
+#prog-langs{
+	margin-left: auto;
+	margin-right: auto;
+}
+.center{
+	text-align: center;
 }
 
+.langs-used{
+	text-align: center;
+	font-size: 14px;
+	color: #333333;
+	padding-bottom: 1.5%;
+}
 #hobbies-wrapper{
     padding-top: 3%;
     background-color: #7BBB93;
     padding-bottom: 5%;
     text-align: center;
+}
+#last-update{
+	padding-top: 1%;
 }

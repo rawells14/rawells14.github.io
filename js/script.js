@@ -1,7 +1,6 @@
 "use strict"
 $(document).ready(function () {
-    console.log("HI");
-    $("#lastUpdate").text("Updated: " + getLastDate());
+    $("#last-update").text("Updated: " + getLastDate());
 });
 
 function getLastDate(){
