@@ -25,6 +25,7 @@
 #prog-langs{
 	margin-left: auto;
 	margin-right: auto;
+	font-size: inherit;
 }
 .center{
 	text-align: center;
