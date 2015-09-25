@@ -34,7 +34,7 @@
 
 .langs-used{
 	text-align: center;
-	font-size: 14px;
+	font-size: inherit;
 	color: #333333;
 	padding-bottom: 1.5%;
 }
