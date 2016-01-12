@@ -1,9 +1,22 @@
-"use strict"
-$(document).ready(function () {
-    $("#last-update").text("Updated: " + getLastDate());
+$(document ).ready(function() {
+    $("#resume-btn").click(function(){
+		$('html, body').animate({
+        scrollTop: $("#resume").offset().top
+    }, 1500);
+    });
+    $("#tutoring-btn").click(function(){
+		$('html, body').animate({
+        scrollTop: $("#tutoring").offset().top
+    }, 1500);
+    });
+    $("#projects-btn").click(function(){
+		$('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 1500);
+    });
+    $("#about-me-btn").click(function(){
+		$('html, body').animate({
+        scrollTop: $("#about-me").offset().top
+    }, 1500);
+    });
 });
-
-function getLastDate(){
-    var last = new Date(document.lastModified);
-    return (last.getMonth()+1).toString() + "/"+ last.getDate().toString() + "/" + last.getFullYear().toString();
-}
