@@ -4,11 +4,6 @@ $(document ).ready(function() {
         scrollTop: $("#resume").offset().top
     }, 1500);
     });
-    $("#tutoring-btn").click(function(){
-		$('html, body').animate({
-        scrollTop: $("#tutoring").offset().top
-    }, 1500);
-    });
     $("#projects-btn").click(function(){
 		$('html, body').animate({
         scrollTop: $("#projects").offset().top
