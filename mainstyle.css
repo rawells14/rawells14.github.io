@@ -15,8 +15,7 @@
 	text-align: center;
 }
 .pad-but{
-	margin-left: 4%;
-	font-size: 32px;
+	font-size: 40px;
 	font-weight: 300;
 }
 html {
@@ -45,11 +44,4 @@ body {
 }
 .small-text{
 	font-size: 24px;
-}
-.project{
-	padding-top: 5%;
-}.project-image-holder img{
-	width: 50%;
-	padding-top: 3%;
-
 }
